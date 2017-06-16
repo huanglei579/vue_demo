@@ -1,0 +1,87 @@
+/* CSS Document */
+html, body {
+    -webkit-tap-highlight-color: transparent;
+}
+body, button, input, select, textarea, h1, h2, h3, h4, h5, h6 {
+    font-family: San Francisco,Roboto,PingFang SC Regular,NotoSansHans Light,Source Han Sans Light,"Noto Sans CJK {JP, KR, SC, TC}",Dengxian,Microsoft YaHei,SimSun;
+    color: #333;
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust:100%;
+    outline: none;
+    resize: none;
+}
+html,body{
+    font-size:50px;
+}
+#root{font-size:16px;}
+input, textarea, keygen, select, button{
+    font: 16px San Francisco,Roboto,PingFang SC Regular,NotoSansHans Light,Source Han Sans Light,"Noto Sans CJK {JP, KR, SC, TC}",Dengxian,Microsoft YaHei,SimSun;
+}
+html {
+    height: 100%;
+}
+body {
+    background: #f5f5f5;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body, figure, p, dl, ol,dd, dt, ul, li {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+}
+a {
+    text-decoration: none
+}
+a:hover {
+    cursor: pointer;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+img, td, th {
+    border: none;
+}
+img, li {
+    vertical-align: top;
+}
+img{
+    display: block;
+}
+em,i {
+    font-style: normal;
+}
+a, button, textarea, div, li, img, span, input {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+input{
+    -webkit-appearance:none;
+    background-color:transparent;
+    outline:none;
+}
+/*reset css*/
